@@ -8,6 +8,6 @@
 // ==/UserScript==
 
 $(document).ready(function() {
-   var rand = document.getElementById('header');
+   var rand = document.getElementById('email-verification-tooltip-id');
   $(rand).append('<a href="http://www.reddit.com/r/random">random</a>&nbsp;|&nbsp;<a href="http://www.reddit.com/r/randnsfw">randnsfw</a>&nbsp;&nbsp;');
 });
